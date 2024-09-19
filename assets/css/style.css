@@ -1,0 +1,463 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Noto Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding: 25px;
+    background-color: rgba(40, 58, 90, 0.9);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;  
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-heading a{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    margin-left: 392px;
+}
+.navbar a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 50px;
+
+}
+.navbar-button a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background: skyblue;
+    color: #fff;
+    border-radius: 40px;
+    margin-right: 40px;
+    
+}
+.banner{
+    background: #37517E;
+    position: relative;
+    width: 100%;
+    min-height: 105vh;
+    /* margin-top: -86px; */
+    z-index: -1;
+}
+.final-banner{
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.heading-banner h1{
+    color: #fff;
+    padding-top: 270px;
+    width: 589px;
+    font-size: 52px;
+    font-weight: bolder;
+}
+.text-banner p{
+    color: #a7a7a7;
+    font-size: 20px;
+    width: 400px;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.main-button{
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+}
+.button-banner{
+    margin-top: 40px;
+}
+.button-banner a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background: skyblue;
+    color: #fff;
+    border-radius: 40px;
+}
+.video-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.video-button i{
+    color: #fff;
+    font-size: 30px;  
+}
+.hero img{
+    width: 600px;
+    padding-top: 140px;
+}
+.hero img {
+    -webkit-animation: action 2s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.main-icon{
+    display: flex;
+    gap: 155px
+}
+.icon{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10  rgba(0, 0, 0, 0.2);
+
+}
+.image-one img{
+    width: 70px;
+}
+.heading-about h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    color: #37517e;
+    font-weight: 700;
+}
+.text-about p{
+    color: #2b2a2a;
+    font-size: 18px;
+    width: 500px;
+    padding-top: 50px;
+    line-height: 1.4;
+}
+.text-one{
+    padding-top: 10px;
+}
+.text-one p{
+    padding-top: 10px;
+}
+.text-one i{
+    color: #37517E;
+}
+.final-about{
+    display: flex;
+    align-items: baseline;
+    gap: 80px; 
+}
+.text-three- p{
+    color: #2b2a2a;
+    font-size: 18px;
+    width: 500px;
+    padding-top: 50px;
+    line-height: 1.4;
+}
+.button-text{
+    margin-top: 30px;
+}
+.button-text a{
+    text-decoration: none;
+    padding: 12px 35px;
+    background: #fff;
+    color: skyblue;
+    font-size: 16px;
+    border: 2px solid skyblue;
+}
+.button-text i{
+    color: skyblue;
+    font-size: 16px;
+}
+.button-text  :hover{
+    background: skyblue;
+    color: #fff;
+}
+.button-text i :hover{
+    color: #fff;
+    
+}
+.heading-part-one{
+    padding-top: 120px;
+    width: 600px;
+}
+.heading-part-one h3{
+    font-size: 35px;
+    color: #37517E;
+    font-weight: lighter;
+}
+.heading-part-one span{
+    color: #2d4164;
+    font-size: 37px;
+    font-weight: bold;
+}
+.final-part{
+    display: flex;
+    justify-content: space-between;
+}
+.text-part p{
+    color: #2b2a2a;
+    width: 600px;
+    line-height: 1.4;
+    padding-top: 20px;
+}
+.faqcontainer {
+    position: absolute; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    min-height: 300px;
+    z-index: -1;
+    /* margin-top:  20px; */
+    margin-left: -47px;
+
+}  
+h1 {
+    font-family: WorkSans-Bold;
+    display:flex;
+}
+.question {
+    font-family: WorkSans-SemiBold;
+    padding: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.question details summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 7px;
+}
+.question details summary img {
+    float: right;
+}
+.question p {
+    font-family: WorkSans-Regular;
+    font-size: 17px;
+    color: #2b2a2a;
+}
+.attribution {
+    position: absolute;
+    bottom: 5%;
+}
+.image-part img{
+    width: 400px;
+    padding-top: 200px;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+}
+.heading-ser{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 35px;
+    color: #37517e;
+    font-weight: 700;
+}
+.text-ser p{
+    text-align: center;
+    color:  #2b2a2a;
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.main-ser{
+    display: flex;
+    gap: 14px;
+}
+.head-icon{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.4);
+    width: 220px;
+    border-radius: 5px;
+    padding: 35px;
+    margin-top: 90px;
+}
+.icon-add i{
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #37517E;
+}
+.heading-icon h3{
+    font-size: 20px;
+    color: #37517E;
+    padding-bottom: 15px;
+
+}
+.paragh-icon p{
+    color: #2b2a2a;
+    font-size: 18px;
+    width: 250px;
+
+}
+.heading-con h2{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: #37517e;
+    font-weight: 700;
+}
+.paragh-con p{
+    text-align: center;
+    padding-top: 20px;
+    color: #2b2a2a;
+    font-size: 16px;
+}
+.main-map{
+    display: flex;
+    align-items: center;
+}
+.map{
+    margin-top: 70px;
+}
+.card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-top: 68px;
+    padding: 20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 22px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+.button a{
+    text-decoration: none;
+    padding: 14px 30px;
+    background: skyblue;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.big-card{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+      
+}
+.final-footer{
+    display: flex;
+    gap: 145px
+}
+.name-heading{
+    padding-top: 80px;
+}
+.name-heading a{
+    text-decoration: none;
+    color: #2d4164;
+    font-size: 25px;
+    font-weight: 700;
+}
+.text-footer p{
+    padding-top: 20px;
+    width: 200px;
+    line-height: 1.9;
+    color: #444444;
+    font-size: 15px;
+}
+.text-one-footer{
+  padding-top: 20px;
+}
+.text-one-footer span{
+    color: #444444;
+    font-size: 15px;
+}
+.text-two-footer{
+    padding-top: 10px;
+  }
+.text-two-footer span{
+    color: #444444;
+    font-size: 15px;
+}
+.sec-heading{
+    padding-top: 82px;
+    padding-bottom: 10px;
+}
+.sec-heading a{
+    text-decoration: none;
+    color: #2d4164;
+    font-size: 20px;
+    font-size: 700;
+}
+.a{
+    padding: 7px;
+}
+.a a{
+    text-decoration: none;
+    color: #444444; 
+}
+.three-heading{
+    padding-top: 82px;
+    padding-bottom: 10px;
+}
+.three-heading a{
+    text-decoration: none;
+    color: #2d4164;
+    font-size: 20px;
+    font-size: 700;  
+}
+.a2{
+    padding: 7px;
+}
+.a2 a{
+    text-decoration: none;
+    color: #444444; 
+    font-size: 15px;
+}
+.four-heading{
+    padding-top: 82px;
+}
+.four-heading a{
+    text-decoration: none;
+    color: #2d4164;
+    font-size: 20px;
+    font-size: 700;
+}
+.parah-footer p{
+    padding-top: 20px;
+    width: 300px;
+    line-height: 1.5;
+    color: #444444;
+    font-size: 15px;
+}
+.footer-icon i{
+    font-size: 20px;
+    padding-top: 10px;
+    padding: 10px;
+}
+.footer-end-heading h3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
